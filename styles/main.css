@@ -44,7 +44,7 @@ header .column span {
     accent-color: white;
 }
 
-.show-keys input {
+.show-keys-letter input {
     width: 3.75rem;
     height: 1.875rem;
     appearance: none;
@@ -54,7 +54,7 @@ header .column span {
     position: relative;
 }
 
-.show-keys input::before {
+.show-keys-letter input::before {
     content: '';
     width: 1.25rem;
     height: 1.25rem;
@@ -67,7 +67,7 @@ header .column span {
     transition: all 0.3s ease;
 }
 
-.show-keys input:checked::before {
+.show-keys-letter input:checked::before {
     left: 2.1rem;
     background-color: #fff;
 }
@@ -111,12 +111,16 @@ header .column span {
     font-size: 1.13rem;
 }
 
-.piano-keys .white:active {
+.piano-keys .white.active {
     box-shadow: inset -5px 5px 20px rgba(0,0,0, 0.2);
     background: linear-gradient(to bottom #fff 0%, #eee 100%);
 }
 
-.piano-keys .black:active {
+.piano-keys .black.active {
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
-    background: linear-gradient(to bottom #000, #434343);
+    background: linear-gradient(to bottom #000, #c4c2c2);
+}
+
+.piano-keys .keys.hide span {
+    display: none;
 }
