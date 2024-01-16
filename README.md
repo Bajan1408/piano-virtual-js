@@ -11,4 +11,7 @@ Ativando a opção teclas, no canto superior direito, aparecem as letras corresp
 
 Foi um bom projeto para treinar habilidades nas tecnologias usadas. 
 
+Como aprimoramento do projeto eu fiz a correção da escala diatônica do piano.
+E além disso eu alterei os nomes dos audios para coincidirem com os nomes das notas musicais, tornando mais fácil uma manutenção futura no código. 
+
 Para acessar o deploy visite o site [Aqui](https://bajan1408.github.io/piano-virtual-js/).
